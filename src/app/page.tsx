@@ -232,6 +232,42 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Intro Section - Description of Steps */}
+        <section className="flex min-h-screen flex-col items-center justify-center px-6 py-12 text-center sm:px-8">
+          <div className="mx-auto max-w-3xl space-y-8 rounded-3xl border-2 border-red-300/40 bg-red-950/85 p-8 backdrop-blur-xl shadow-2xl sm:p-12 md:p-16">
+            <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl drop-shadow-2xl">
+              Comment découvrir ton cadeau
+            </h2>
+            <div className="space-y-6 text-left">
+              <div className="space-y-3">
+                <h3 className="text-2xl font-semibold text-amber-200 sm:text-3xl">
+                  Étape 1 : Appelle le Père Noël
+                </h3>
+                <p className="text-xl leading-relaxed text-white sm:text-2xl md:text-3xl drop-shadow-lg">
+                  Clique sur le bouton pour appeler le Père Noël. Il te donnera
+                  un mot de passe secret pendant l&apos;appel.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <h3 className="text-2xl font-semibold text-amber-200 sm:text-3xl">
+                  Étape 2 : Déverrouille ton cadeau
+                </h3>
+                <p className="text-xl leading-relaxed text-white sm:text-2xl md:text-3xl drop-shadow-lg">
+                  Après l&apos;appel, saisis le mot de passe que le Père Noël
+                  t&apos;a donné pour révéler ton cadeau de Noël.
+                </p>
+              </div>
+            </div>
+            {/* Scroll indicator */}
+            <div className="mt-8 animate-bounce">
+              <div className="text-4xl sm:text-5xl">⬇️</div>
+              <p className="mt-2 text-lg text-white sm:text-xl drop-shadow-md">
+                Fais défiler pour commencer
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Step 2: Call Santa Section */}
         <section className="flex min-h-screen flex-col items-center justify-center px-6 py-12 text-center sm:px-8">
           <div className="mx-auto max-w-3xl space-y-10 rounded-3xl border-2 border-red-300/40 bg-red-950/85 p-8 backdrop-blur-xl shadow-2xl sm:p-12 md:p-16">
